@@ -1,0 +1,8 @@
+nav{
+    display: flex;
+    color: blue;
+    font-size: x-large;
+    gap: 5rem;
+    text-decoration: none;
+    background-color: palevioletred;
+}

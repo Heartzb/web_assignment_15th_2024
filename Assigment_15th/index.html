@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+
+<link rel="stylesheet" href="./index.css">
+<body style="background-image: url(./images/wit.png); background-repeat:no-repeat;background-size:cover">
+
+   <div class="menu-toggle" id="menu-toggle " onclick="toggleMemu"> &#9776; </div>
+    <nav>
+    <ul>
+        <li><a   href="#./index.html">Home</a></li>
+   <li><a href="./pages/aboutme.html">About me</a></li>
+  <li><a href="./pages/contactme.html">Contact me</a></li>
+    <li> <a href="./pages/gallery.html">Gallery</a></li>
+ <li><a href="./pages/services.html">Services</a></li> </ul>
+    </nav>
+
+    <script>
+        function toggleMemu(){
+            const menu =document.getElementById("nav-menu")
+            menu.classList.toggle("active");
+        }
+    </script>
+
+</body>
+</html>
